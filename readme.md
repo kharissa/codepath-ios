@@ -1,17 +1,17 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *TipSplit*
 
-**Name of your app** is a tip calculator application for iOS.
+**TipSplit** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: Kharissa Fernando Smith
 
-Time spent: **X** hours spent in total
+Time spent: 2 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
 The following **optional** features are implemented:
 
@@ -22,23 +22,22 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] User can enter party size and see how much the total amount to be paid per person.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Stw26ys.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+After trying out different functions, I ran into errors when running the app because I didn't realize that deleted functions within the view controller can still be linked to outlets. Only upon checking the view controller in the Main.storyboard file was I able to see the unused connections. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2021 Kharissa Fernando Smith
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
